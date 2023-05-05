@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <!-- Pop-up penceresi stil dosyası -->
+    <link rel="stylesheet" href="popup.css">
+
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://css.gg/dark-mode.css' rel='stylesheet'>
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="navx">
+            <div class="fixed-navbarx">
+                <nav class="navbarx">
+                    <ul>
+                        <a class="link" href="#about">
+                            <span class="material-symbols-outlined">
+                                account_circle
+                            </span>
+                            <div class="nav-text"> Me </div>
+                        </a>
+
+                        <a class="link" href="#skills">
+                            <span id="2" class="material-symbols-outlined">
+                                star
+                            </span>
+                            <div class="nav-text"> Skills </div>
+                        </a>
+                        <a class="link" href="#certifications">
+                            <span id="3" class="material-symbols-outlined">
+                                workspace_premium
+                            </span>
+                            <div class="nav-text"> Certifications </div>
+                        </a>
+                        <a class="link" href="#education">
+                            <span id="4" class="material-symbols-outlined">
+                                school
+                            </span>
+                            <div class="nav-text"> Education </div>
+                        </a>
+                        <a class="link" href="#contact">
+                            <span id="5" class="material-symbols-outlined">
+                                alternate_email
+                            </span>
+                            <div class="nav-text"> Contact </div>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header-image">
+
+        </div>
+    </header>
+    <div class="darkmode">
+        <button id='switch' class="switch" onclick="switchTheme()">
+            <i class="fas fa-moon fa-2x" id="maan" style="color:#ffffff;"></i>
+        </button>
+    </div>
+    <div class="containerx">
+        <div class="bottom">
+            <div class="cardx" style="box-sizing: border-box;">
+                <div class="logo">
+                    <img class="logo_img" src="assets/img/logo.jpg" alt="">
+                    <div class="borderx"></div>
+                    <div class="borderx2"></div>
+                </div>
+                <div class="iam">
+                    <p id="about" class="iam-ns">Hello I'm <br><span> Agit Erdem </span></p>
+                </div>
+                <div class="tick">
+                    <div class="socialmedia" style="display: flex; flex-wrap: wrap-reverse;">
+                        <div class="github">
+                            <a href="#"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+                        </div>
+                        <div class="instagram">
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+                        </div>
+                        <div class="facebook">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                        </div>
+                        <div class="twitter">
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+                        </div>
+                        <div class="linkedin">
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+            <!-- ben kimim -->
+            <div class="cardx">
+                <div class="about-me">
+
+                    <p class="me">About Me</p>
+                    <P>I am a 19-year-old computer programming student with a strong passion for software development.
+                        My goal is to become a skilled programmer and contribute to the industry. I am dedicated to
+                        continuously learning and improving my skills in order to achieve my ambitions.</P>
+                    <div class="me-ilgi">
+                        <div class="ilgi-items">
+                            <span id="ilgi-item" class="material-symbols-outlined">
+                                html
+                            </span>
+                        </div>
+                        <div class="ilgi-items">
+                            <span id="ilgi-item" class="material-symbols-outlined">
+                                css
+                            </span>
+                        </div>
+                        <div class="ilgi-items">
+                            <span id="ilgi-item" class="material-symbols-outlined">
+                                javascript
+                            </span>
+                        </div>
+                        <div class="ilgi-items">
+                            <span id="ilgi-item" class="material-symbols-outlined">
+                                php
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- yeteneklerim -->
+            <div class="cardx">
+                <div class="s-containerx">
+                    <p id="skills" class="skills">Skills</p>
+                    <P>Here are some of my technical skills and competencies. </P>
+                    <div class="skills-containerx">
+                        <div class="col1-skills">
+
+                            <div class="col1-skills__1">
+                                <P
+                                    style="font-size: 14px; display: inline-block; margin-left: 20px; font-weight: 500; margin-bottom: 0; ">
+                                    <i class="fa fa-html5" aria-hidden="true"></i> HTML</P>
+                                <div class="containerx-bars">
+                                    <div class="skill-bars html"></div>
+                                </div>
+                            </div>
+
+                            <div class="col1-skills__2">
+                                <P
+                                    style="font-size: 14px; display: inline-block; margin-left: 20px; font-weight: 500; margin-bottom: 0; ">
+                                    <i class="fa fa-css3" aria-hidden="true"></i>
+                                    CSS</P>
+                                <div class="containerx-bars">
+                                    <div class="skill-bars css"></div>
+                                </div>
+                            </div>
+
+                            <div class="col1-skills__3">
+                                <P
+                                    style="font-size: 14px; display: inline-block; margin-left: 20px; font-weight: 500; margin-bottom: 0; ">
+                                    <i class="fab fa-js"></i> JAVASCRIPT</P>
+                                <div class="containerx-bars">
+                                    <div class="skill-bars js"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col2-skills">
+
+                            <div class="col2-skills__1">
+                                <P
+                                    style="font-size: 14px; display: inline-block; margin-left: 20px; font-weight: 500; margin-bottom: 0; ">
+                                    After Effects</P>
+                                <div class="containerx-bars">
+                                    <div class="skill-bars html"></div>
+                                </div>
+                            </div>
+
+                            <div class="col2-skills__2">
+                                <P
+                                    style="font-size: 14px; display: inline-block; margin-left: 20px; font-weight: 500; margin-bottom: 0; ">
+                                    Indesign</P>
+
+                                <div class="containerx-bars">
+                                    <div class="skill-bars css"></div>
+                                </div>
+                            </div>
+
+                            <div class="col2-skills__3">
+                                <P
+                                    style="font-size: 14px; display: inline-block; margin-left: 20px; font-weight: 500; margin-bottom: 0; ">
+                                    Photoshop</P>
+                                <div class="containerx-bars">
+                                    <div class="skill-bars js"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- sertifikalarım -->
+        <div class="cardx">
+            <div class="cert">
+                <p id="certifications" class="Certifications">Licenses & certifications</p>
+                <div class="cert-cardxs">
+                    <div class="cert-cardx__1">
+                        <div class="cardx-divs">
+                            <div class="cardx-img"></div>
+                            <div class="cardx-content">
+
+                                <a href="#">
+                                    <h4 class="cardx-content__h4">The Complete Web Developer in 2023: Zero to Mastery
+                                    </h4>
+                                </a>
+
+                                <div class="cert-platform">
+                                    <svg style="color: rgb(164, 53, 240);" role="img" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <title>Udemy</title>
+                                        <path
+                                            d="M12 0L5.81 3.573v3.574l6.189-3.574 6.191 3.574V3.573zM5.81 10.148v8.144c0 1.85.589 3.243 1.741 4.234S10.177 24 11.973 24s3.269-.482 4.448-1.474c1.179-.991 1.768-2.439 1.768-4.314v-8.064h-3.242v7.85c0 2.036-1.509 3.055-2.948 3.055-1.428 0-2.947-.991-2.947-3.027v-7.878z"
+                                            fill="#a435f0"></path>
+                                    </svg>
+                                    <h5 class="cardx-content__h5">Udemy</h5>
+                                </div>
+
+                                <p class="cardx-content__p">Issued Aug 2022 · No Expiration Date</p>
+
+                                <div class="cert-cardx-btn">
+                                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+                                        Show credential
+                                        <div class="cert-cardx-btn-icon">
+                                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-cardx__1">
+                        <div class="cardx-divs">
+                            <div class="cardx-img"></div>
+                            <div class="cardx-content">
+
+                                <a href="#">
+                                    <h4 class="cardx-content__h4">The Complete Web Developer in 2023: Zero to Mastery
+                                    </h4>
+                                </a>
+
+                                <div class="cert-platform">
+                                    <svg style="color: rgb(164, 53, 240);" role="img" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <title>Udemy</title>
+                                        <path
+                                            d="M12 0L5.81 3.573v3.574l6.189-3.574 6.191 3.574V3.573zM5.81 10.148v8.144c0 1.85.589 3.243 1.741 4.234S10.177 24 11.973 24s3.269-.482 4.448-1.474c1.179-.991 1.768-2.439 1.768-4.314v-8.064h-3.242v7.85c0 2.036-1.509 3.055-2.948 3.055-1.428 0-2.947-.991-2.947-3.027v-7.878z"
+                                            fill="#a435f0"></path>
+                                    </svg>
+                                    <h5 class="cardx-content__h5">Udemy</h5>
+                                </div>
+
+                                <p class="cardx-content__p">Issued Aug 2022 · No Expiration Date</p>
+
+                                <div class="cert-cardx-btn">
+                                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+                                        Show credential
+                                        <div class="cert-cardx-btn-icon">
+                                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- eğitimim -->
+        <div class="cardx">
+            <div class="edu-list">
+                <p id="education" class="education">Education</p>
+                <ul>
+                    <P>Where I've studied and what I've learned </P>
+
+                    <li class="edu-list__li">
+                        <div class="lc">
+                            <div id="line"></div>
+                            <div id="circle"><i class="fa fa-graduation-cap"></i></div>
+                            <div id="circles2"></div>
+                            <div id="circles3"></div>
+                        </div>
+                        <div class="edu">
+                            <div class="edu-img"><img src="assets/img/edu-img.png" alt=""></div>
+                            <div class="edu-right">
+                                <div class="edu-sections">Computer programming</div>
+                                <div class="edu-name"><a target="_blank" href="https://gelisim.edu.tr/en"> IGU -
+                                        Istanbul Gelisim University</a></div>
+                                <div class="edu-date">2022-2024</div>
+                                <div class="edu-location">Turkey, Istanbul</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- iletişim -->
+        <div class="cardx">
+            <div class="contact">
+                <div>
+                    <p id="contact" class="contacttext">Contact</p>
+                </div>
+                <div class="c-containerx">
+                    <div class="cols">
+                        <div class="address-div">
+                            <div class="address-div_flex">
+                                <div class="address">
+                                    <div class="address-icon">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="address-text">
+                                        Turkey Istanbul
+                                    </div>
+                                </div>
+                                <div class="address">
+                                    <div class="address-icon">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="address-text">
+                                        <a title="Click to send me an email" href="mailto:contact@agiterdem.me">
+                                            contact@agiterdem.me</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="testtext">Whether you have a question, feedback, or just want to say hi, I am just
+                                a message away, so don't hesitate to reach out!
+                            </p>
+                        </div>
+
+                        <div class="contact-div">
+                            <form class="contact-form" method="post" action="save-contact.php">
+                                <label for="name">Full Name</label>
+                                <input placeholder="Your full name" class="name" id="name" name="name" type="text"
+                                    required> <!-- required eklendi -->
+
+                                <label for="email">Email</label>
+                                <input placeholder="Your email address" class="email" id="email" name="email"
+                                    type="email" required>
+                                <!-- class ismi düzeltildi, name değiştirildi ve required eklendi -->
+                                <label for="subject">Subject</label>
+                                <input placeholder="Subject" name="subject" id="subject" required>
+                                <!-- textarea yerine input kullanıldı ve required eklendi -->
+                                <label for="message">Message</label>
+                                <textarea placeholder="Type your message here" class="message" name="message"
+                                    id="message" cols="30" rows="10" required></textarea>
+                                <!-- name eklendi ve required eklendi -->
+                                <input class="submit" value="Submit" type="submit">
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Popup 1 -->
+    <div class="modal fade" id="myModal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Popup başlığı -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Popup gövdesi -->
+                <div class="modal-body">
+                    <img src="assets/img/1.jpeg" alt="Görsel" style="width:100%;">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Popup 2 -->
+    <div class="modal fade" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Popup başlığı -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Popup gövdesi -->
+                <div class="modal-body">
+                    <img src="assets/img/2.jpeg" alt="Görsel" style="width:100%;">
+                </div>  
+                
+                <!-- Popup kapatma butonu -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var contactDiv = document.getElementById("contact");
+        if (contactDiv) {
+        var navbarLinks = document.querySelectorAll(".navbarx ul a");
+        contactDiv.addEventListener("mouseenter", function() {
+            navbarLinks.forEach(function(link) {
+            link.classList.add("active");
+            });
+        });
+        contactDiv.addEventListener("mouseleave", function() {
+            navbarLinks.forEach(function(link) {
+            link.classList.remove("active");
+            });
+        });
+        }
+
+
+    </script>
+
+    <script>
+        // Form alanlarını seç
+        const nameInput = document.getElementById('name');
+        const emailInput = document.getElementById('email');
+        const subjectInput = document.getElementById('subject');
+        const messageInput = document.getElementById('message');
+
+        // Form alanlarının her birinde, değer değiştiğinde yerel depolamada sakla
+        nameInput.addEventListener('input', () => {
+        localStorage.setItem('name', nameInput.value);
+        });
+        emailInput.addEventListener('input', () => {
+        localStorage.setItem('email', emailInput.value);
+        });
+        subjectInput.addEventListener('input', () => {
+        localStorage.setItem('subject', subjectInput.value);
+        });
+        messageInput.addEventListener('input', () => {
+        localStorage.setItem('message', messageInput.value);
+        });
+
+        // Sayfa yüklendiğinde, kaydedilmiş form verilerini yükle
+        window.addEventListener('load', () => {
+        nameInput.value = localStorage.getItem('name');
+        emailInput.value = localStorage.getItem('email');
+        subjectInput.value = localStorage.getItem('subject');
+        messageInput.value = localStorage.getItem('message');
+        });
+
+        // Form gönderildiğinde, yerel depolamadaki verileri temizle
+        submitButton.addEventListener('click', () => {
+        localStorage.removeItem('name');
+        localStorage.removeItem('email');
+        localStorage.removeItem('subject');
+        localStorage.removeItem('message');
+        });
+
+
+
+
+
+    </script>
+
+
+
+    <script>
+
+        var urlParams = new URLSearchParams(window.location.search);
+        var messageSent = urlParams.get('messageSent');
+        if (messageSent) {
+            alert('Message sent successfully.');
+        }
+
+    </script>
+
+    <script>
+
+
+        let icon = document.querySelector('#maan');
+        icon.onclick = () => {
+            icon.classList.toggle('fa-sun');
+            icon.classList.toggle('fa-moon');
+
+        };
+
+        // setting theme when contents are loaded
+        window.addEventListener('load', function () {
+            var theme = localStorage.getItem('theme');
+            // when first load, choose an initial theme
+            if (theme === null || theme === undefined) {
+                theme = 'dark';
+                localStorage.setItem('theme', theme);
+            }
+            // set theme
+            var html = document.querySelector("html");
+            // apply the variable
+            html.classList.add(theme);
+        })
+        function switchTheme() {
+            var theme = localStorage.getItem('theme');
+            var html = document.querySelector('html');
+            // choose new theme
+            if (theme === 'dark') {
+                new_theme = 'light';
+            } else {
+                new_theme = 'dark';
+            }
+            // remove previous class
+            html.classList.remove(theme);
+            // add new class
+            html.classList.add(new_theme);
+            // store theme
+            localStorage.setItem('theme', new_theme);
+        }
+        window.addEventListener('scroll', function () {
+            var element = document.getElementById('html');
+            var position = element.getBoundingClientRect();
+
+            if (position.top < window.innerHeight) {
+                element.style.visibility = 'visible';
+                element.style.animation = 'slide-in-right 1s ease-out';
+            }
+        });
+
+    </script>
+
+    <div class="footer">
+        <div class="owner">
+            <p>© 2022 <span> Agit Erdem </span></p>
+        </div>
+
+
+</body>
+
+</html>
